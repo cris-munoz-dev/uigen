@@ -101,8 +101,8 @@ export function PreviewFrame() {
   if (error) {
     if (error === "firstLoad") {
       return (
-        <div className="h-full flex items-center justify-center p-8 bg-gray-50">
-          <div className="text-center max-w-md">
+        <div className="h-full w-full flex items-center justify-center bg-gray-50">
+          <div className="text-center max-w-md px-8">
             <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-blue-100 mb-4">
               <svg
                 className="h-8 w-8 text-blue-600"
@@ -133,8 +133,8 @@ export function PreviewFrame() {
     }
 
     return (
-      <div className="h-full flex items-center justify-center p-8 bg-gray-50">
-        <div className="text-center max-w-md">
+      <div className="h-full w-full flex items-center justify-center bg-gray-50">
+        <div className="text-center max-w-md px-8">
           <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-gray-100 mb-4">
             <AlertCircle className="h-8 w-8 text-gray-400" />
           </div>
