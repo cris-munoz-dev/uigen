@@ -34,6 +34,14 @@ npm run db:reset             # Reset database (force)
 npx prisma studio            # Open database GUI
 ```
 
+## Browser Usage
+
+**IMPORTANT**: Always use the system's default browser for all web-related tasks:
+- Never attempt to install or configure a different browser
+- Never use browser automation tools that require specific browser installations
+- When opening URLs or running browser-based tasks, always use the default system browser
+- Use `open` command on macOS to respect the default browser setting
+
 ## Architecture
 
 ### Virtual File System (VFS)
